@@ -10,6 +10,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <h1>Hi, I am Russell.</h1>
     <p>I do Jiu Jitsu and build Websites.</p>
+    <h2>I mostly work with Wordpress.</h2>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
