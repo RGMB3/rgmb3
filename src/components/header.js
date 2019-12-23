@@ -2,6 +2,9 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+//import './header.module.scss'
+import headerStyles from './header.module.scss'
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -19,10 +22,7 @@ const Header = ({ siteTitle }) => (
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+          className={headerStyles.title}
         >
           {siteTitle}
         </Link>

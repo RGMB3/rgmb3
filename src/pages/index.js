@@ -13,7 +13,7 @@ const IndexPage = () => (
       <p>I practice Jiu Jitsu and build websites.</p>
     </div>
     { /*<Link to="/jiu-jitsu/">Jiu Jitsu</Link> */ }
-    <div style={{ maxWidth: `250px`, minWidth: `250px`, marginBottom: `1.45rem` }}>
+    <div style={{ maxWidth: `250px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
    
